@@ -1,0 +1,19 @@
+{
+  "name": "aula",
+  "version": "1.0.0",
+  "description": "Estudos sobre o display-flex, position e tags semanticas.",
+  "main": "indez.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "position",
+    "display",
+    "flex",
+    "semantico",
+    "html",
+    "css"
+  ],
+  "author": "Carlos",
+  "license": "ISC"
+}
