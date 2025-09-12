@@ -4,9 +4,27 @@
 @import url(./footer.css);
 @import url(./cards.css);
 
-.content-nosso-time{
+/*Efeito suave de transição entrea as páginas*/
+html{
+    scroll-behavior: smooth;
+}
+
+.content-nosso-time, .content-cursos, .content-faq, .content-contato{
+    width: 100%;
+    height: 100vh;
+    font-size: 40px;
+    color: #fff;
 
 }
+
+.content-nosso-time{
+    background: linear-gradient(to right, rgba(107, 134, 255, 0.226), rgba(0, 0, 0, 0.521));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
 .content-cursos{
 
 }
@@ -14,24 +32,10 @@
 
 }
 .content-contato{
-    
+
 }
 
+.content-cursos{
 
-
-
-
-
-.main-content {
-    width: 100%;
-    height: 200vh;
-    background-color: rgb(0, 0, 0);
-}
-
-.whatsapp-button{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(114, 114, 114);
-    background: linear-gradient(to right, rgba(0, 47, 255, 0.39), rgba(0, 0, 0, 0.904));
 }
 
