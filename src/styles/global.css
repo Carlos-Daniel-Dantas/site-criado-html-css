@@ -18,7 +18,7 @@ html{
 }
 
 .content-nosso-time{
-    background: linear-gradient(to right, rgba(107, 134, 255, 0.226), rgba(0, 0, 0, 0.521));
+    background: linear-gradient(to right, rgb(0, 122, 71), rgba(0, 0, 0, 0.233));
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,12 +26,17 @@ html{
 }
 
 .content-cursos{
-
+    background: linear-gradient(to right, rgb(0, 138, 218), rgba(0, 0, 0, 0.664));
+    border-radius: 0 0 40px 40px;
+    
+    
 }
 .content-faq{
+    background-color: rgb(24, 22, 32);
 
 }
 .content-contato{
+    background-color: rgb(4, 0, 255);
 
 }
 
