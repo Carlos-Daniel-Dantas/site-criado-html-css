@@ -42,7 +42,7 @@ user-select: none;
 }
 
 .header-menu li:hover {
-    background-color: rgba(124, 124, 124, 0.81);
+    background-color: rgb(59, 59, 59);
     color: rgba(44, 44, 44, 0.627);
     box-shadow: 0 4px 2px;
 
@@ -68,13 +68,13 @@ user-select: none;
 }
 
 .header-search input:focus {
-    border-color: rgba(0, 0, 0, 0);
-    box-shadow: 0 0 8px rgba(red);
+    border-color: rgb(104, 104, 104);
+    box-shadow: 0 0 8px rgba(rgb(37, 37, 37));
 
 }
 .header-search input{
     padding: 7px 12px;
-    border: 1px solid #000000;
+    border: 1px solid #00000000;
     border-radius: 20px;
     outline: none;
     transition: border-color 0.3s ease;
