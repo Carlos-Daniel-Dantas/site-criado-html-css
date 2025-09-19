@@ -1,35 +1,67 @@
-.speaker-card{
+
+.content-nosso-time {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.speaker-card {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    /* Transicao para o efeito de zoom */
+    transition: ease-out 0.3s;
+    display: flex;
+    /* Garantir que a foto nao vai escapar do card */
+    overflow: hidden;
     max-width: 250px;
-    border: 2px solid #ddd;
-    border-radius: 50px;
-
-    align-items: center;
-    padding: 0,0, 40px, 40px;
-    justify-content: space-between;
-    font-size: 40px;
-    background-color: #ffffff;
-    color: black;
+    min-width: 150px;
 
 }
 
 
-
-.speaker-card:hover{
-
-}
-
-.speaker-card img{
-    transform: scale(1.2);
+.speaker-card:hover {
+    /* Aumenta o tamanho em 10% */
+    transform: scale(1.1);
     cursor: pointer;
 }
 
-.speaker-card figcaption {
+.speaker-card h3 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.speaker-card p {
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-size: 40%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
-.speaker-card h3{
+figure {
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 15%;
+    
+}
+
+.speaker-card img {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    display: block;
 
 }
-.speaker-card p{
 
-}

@@ -28,21 +28,19 @@ html{
     align-items: center;
     background-color: #fff;
 
-    
 }
 
 .content-cursos{
     background: linear-gradient(to right, rgb(75, 0, 146), rgb(0, 0, 0));
-    border-radius: 0 0 40px 40px;
     
     
 }
 .content-faq{
-    background-color: rgb(24, 22, 32);
+    background: linear-gradient(to right, rgb(75, 0, 146), rgb(0, 0, 0));
 
 }
 .content-contato{
-    background-color: rgb(4, 0, 255);
+    background: linear-gradient(to right, rgb(75, 0, 146), rgb(0, 0, 0));
 
 }
 
